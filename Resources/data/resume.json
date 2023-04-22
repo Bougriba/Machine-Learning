@@ -1,0 +1,407 @@
+[
+  {
+    "_id": {
+      "$oid": "1"
+    },
+    "degrees": [
+      "BS-LEVEL"
+    ],
+    "majors": [
+      "computer science",
+      "programming",
+      "artificial intelligence"
+    ],
+    "skills": [
+      "computer science",
+      "python",
+      "java",
+      "c",
+      "html",
+      "css",
+      "javascript",
+      "mysql",
+      "php",
+      "oracle",
+      "sql",
+      "github",
+      "training model",
+      "artificial intelligence",
+      "machine learning",
+      "algorithm",
+      "unsupervised learning",
+      "reinforcement learning",
+      "object oriented programming"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "2"
+    },
+    "degrees": [
+      "BS-LEVEL"
+    ],
+    "majors": [
+      "artificial intelligence",
+      "software engineering"
+    ],
+    "skills": [
+      "react",
+      "react-native",
+      "django",
+      "computer-vision",
+      "bootstrap",
+      "opencv",
+      "web-development",
+      "java",
+      "php",
+      "github",
+      "matlab",
+      "engineering",
+      "git",
+      "cpp",
+      "software",
+      "mongodb",
+      "mysql",
+      "flutter",
+      "testing",
+      "devops",
+      "symfony",
+      "active-shape-model",
+      "postgresql",
+      "r",
+      "dart",
+      "html",
+      "angular",
+      "selenium",
+      "f",
+      "software-engineering",
+      "css",
+      "artificial-intelligence",
+      "agile-project-management",
+      "c",
+      "javascript",
+      "python",
+      "android",
+      "flask"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "3"
+    },
+    "degrees": [
+      "BS-LEVEL",
+      "MS-LEVEL"
+    ],
+    "majors": [
+      "software development"
+    ],
+    "skills": [
+      "react",
+      "react-native",
+      ".net",
+      "database",
+      "communications",
+      "laravel",
+      "deep-learning",
+      "node.js",
+      "github",
+      "cpp",
+      "api",
+      "mongodb",
+      "mysql",
+      "docker",
+      "flutter",
+      "aws",
+      "deployment",
+      "testing",
+      "devops",
+      "symfony",
+      "junit",
+      "active-shape-model",
+      "mobile-development",
+      "postgresql",
+      "monitoring",
+      "cassandra",
+      "android",
+      "azure",
+      "graphql",
+      "angular",
+      "f",
+      "ansible",
+      "linux",
+      "c",
+      "kubernetes",
+      "play",
+      "javascript",
+      "python",
+      "pusher",
+      "programming-languages"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "4"
+    },
+    "degrees": [
+      "BS-LEVEL"
+    ],
+    "majors": [
+      "computer science",
+      "software engineering"
+    ],
+    "skills": [
+      "engineering",
+      "sql",
+      "machine-learning",
+      "c",
+      "communications",
+      "deep-learning",
+      "robot",
+      "python",
+      "programming-languages",
+      "matlab"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5"
+    },
+    "degrees": [
+      "BS-LEVEL"
+    ],
+    "majors": [
+      "computer science",
+      "software engineering"
+    ],
+    "skills": [
+      "opencv",
+      "csharp",
+      "deep-learning",
+      "java",
+      "matlab",
+      "git",
+      "cpp",
+      "segmentation",
+      "sql",
+      "scikit-learn",
+      "mysql",
+      "unified-modeling-language",
+      "numpy",
+      "rabbitmq",
+      "active-shape-model",
+      "code",
+      "r",
+      "keras",
+      "f",
+      "linux",
+      "c",
+      "python",
+      "flask"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6"
+    },
+    "degrees": [
+      "MS-LEVEL"
+    ],
+    "majors": [
+      "software engineering"
+    ],
+    "skills": [
+      "react",
+      "django",
+      "socket.io",
+      "database",
+      "neural-network",
+      "node.js",
+      "php",
+      "backend",
+      "typescript",
+      "symfony",
+      "server",
+      "active-shape-model",
+      "heroku",
+      "expressjs",
+      "r",
+      "html",
+      "f",
+      "angular",
+      "frontend",
+      "software-engineering",
+      "css",
+      "front-and-back-ends",
+      "expectation-maximization-algorithm",
+      "c",
+      "javascript",
+      "python",
+      "postgresql"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6"
+    },
+    "degrees": [
+      "BS-LEVEL"
+    ],
+    "majors": [
+      "software engineering"
+    ],
+    "skills": [
+      "react",
+      "react-native",
+      "django",
+      ".net",
+      "bootstrap",
+      "csharp",
+      "communications",
+      "deep-learning",
+      "php",
+      "cpp",
+      "sql",
+      "mongodb",
+      "devops",
+      "symfony",
+      "active-shape-model",
+      "code",
+      "r",
+      "html",
+      "angular",
+      "fusion",
+      "c",
+      "javascript",
+      "python",
+      "postgresql"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "7"
+    },
+    "degrees": [
+      "BS-LEVEL"
+    ],
+    "majors": [
+      "computer science"
+    ],
+    "skills": [
+      "training-model",
+      "django",
+      "bootstrap",
+      "deep-learning",
+      "travelling-salesman-problem",
+      "neural-network",
+      "java",
+      "php",
+      "engineering",
+      "cpp",
+      "sql",
+      "machine-learning",
+      "algorithm",
+      "unified-modeling-language",
+      "ecommerce",
+      "numpy",
+      "computer-science",
+      "shell",
+      "natural-language",
+      "tensorflow",
+      "natural-language-processing",
+      "anomaly-detection",
+      "pandas",
+      "keras",
+      "html",
+      "selenium",
+      "angular",
+      "css",
+      "artificial-intelligence",
+      "modelling",
+      "xml",
+      "c",
+      "python",
+      "android",
+      "distributed-file-system",
+      "pytorch"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "8"
+    },
+    "degrees": [
+      "BS-LEVEL",
+      "MS-LEVEL"
+    ],
+    "majors": [
+      "artificial intelligence",
+      "network security",
+      "cybersecurity"
+    ],
+    "skills": [
+      "html",
+      "postgresql",
+      "sql",
+      "django",
+      "api",
+      "security",
+      "css",
+      "network-security",
+      "tcp-/-ip",
+      "dns-management",
+      "forensic-engineering",
+      "c",
+      "javascript",
+      "web-service",
+      "python",
+      "java",
+      "php"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "9"
+    },
+    "degrees": [
+      "BS-LEVEL"
+    ],
+    "majors": [
+      "software engineering"
+    ],
+    "skills": [
+      "react",
+      "bootstrap",
+      "database",
+      "opencv",
+      "deep-learning",
+      "clone-java-method",
+      "web-development",
+      "node.js",
+      "backend",
+      "git",
+      "user-interface",
+      "mysql",
+      "machine-learning",
+      "devops",
+      "jupyter",
+      "numpy",
+      "rabbitmq",
+      "expressjs",
+      "3d",
+      "pandas",
+      "flask",
+      "graphql",
+      "html",
+      "component",
+      "angular",
+      "sentiment-analysis",
+      "software-engineering",
+      "linux",
+      "modelling",
+      "javascript",
+      "python",
+      "postgresql",
+      "pytorch"
+    ]
+  }]

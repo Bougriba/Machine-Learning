@@ -1,0 +1,86 @@
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelors"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor's"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "b.s"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "b.s."}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "b.a"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "b.a."}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalaureate"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "ba"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bsba"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "ba/bs"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "4-year"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "4 year"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "four year"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "college"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "undergraduate"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "university"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bsc"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bs"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "be"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "b.e"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "master in"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "master"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "master's"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "ms"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "m.s"}]}
+{"label": "DEGREE|PHD-LEVEL", "pattern": [{"LOWER": "phd"}]}
+{"label": "DEGREE|PHD-LEVEL", "pattern": [{"LOWER": "ph.d"}]}
+{"label": "DEGREE|PHD-LEVEL", "pattern": [{"LOWER": "doctorate"}]}
+{"label": "DEGREE|PHD-LEVEL", "pattern": [{"LOWER": "doctorate in"}]}
+{"label": "DEGREE|PHD-LEVEL", "pattern": [{"LOWER": "doctorate's"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalauréat"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalaureat"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalauréat en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence ès"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence universitaire"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor of science"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence ès sciences"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor of arts"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence ès lettres"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence ès sciences économiques"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme universitaire"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme universitaire de technologie"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme d'études universitaires générales"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme d'études collégiales"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en sciences"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en arts"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme d'ingénieur"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en génie"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en informatique"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en mathématiques"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac+3"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac +3"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern":[{"LOWER": "bac + 3"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac pro"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalauréat professionnel"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac professionnel"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac tech"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalauréat technologique"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence universitaire"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme universitaire de technologie"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "dut"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "deug"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bts"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "brevet de technicien supérieur"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "bac+5"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "bac +5"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern":[{"LOWER": "bac + 5"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "master's"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "ms"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "m.s"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "master en"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "maitrise"}]}
+{"label": "DEGREE|MS-LEVEL", "pattern": [{"LOWER": "maîtrise"}]}
+{"label": "DEGREE|PHD-LEVEL", "pattern": [{"LOWER": "doctorat en"}]}
+{"label": "DEGREE|PHD-LEVEL", "pattern": [{"LOWER": "doctorat de"}]}
+{"label": "DEGREE|PHD-LEVEL", "pattern": [{"LOWER": "doctorat "}]}

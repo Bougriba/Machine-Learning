@@ -1,0 +1,42 @@
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalauréat"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalauréat en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence ès"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence universitaire"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor of science"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence ès sciences"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor of arts"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence ès lettres"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence ès sciences économiques"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme universitaire"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme universitaire de technologie"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme d'études universitaires générales"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme d'études collégiales"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en sciences"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en arts"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme d'ingénieur"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en génie"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en informatique"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en mathématiques"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac+3"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac +3"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern":[{"LOWER": "bac + 3"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac pro"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalauréat professionnel"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac professionnel"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bac tech"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "baccalauréat technologique"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence universitaire"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme universitaire de technologie"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "dut"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "deug"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bts"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "brevet de technicien supérieur"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "bachelor en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "licence en"}]}
+{"label": "DEGREE|BS-LEVEL", "pattern": [{"LOWER": "diplôme en"}]}

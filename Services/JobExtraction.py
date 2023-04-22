@@ -1,0 +1,99 @@
+from Resources import DEGREES_IMPORTANCE
+from spacy.lang.en import English
+from spacy.lang.fr import French
+from langdetect import detect
+import json
+class JobExtraction:
+
+    def __init__(self, skills_patterns_path, majors_patterns_path, degrees_patterns_path, jobs):
+        self.jobs = jobs
+        self.skills_patterns_path = skills_patterns_path
+        self.majors_patterns_path = majors_patterns_path
+        self.degrees_patterns_path = degrees_patterns_path
+        self.degrees_importance = DEGREES_IMPORTANCE
+
+    @staticmethod
+    def match_majors_by_spacy(self, job):
+        language = detect(job)
+        if language == "en":
+            nlp = English()
+        else:
+            nlp = French()
+        # Add the pattern to the matcher
+        patterns_path = self.majors_patterns_path
+        ruler = nlp.add_pipe("entity_ruler")
+        ruler.from_disk(patterns_path)
+        # Process some text
+        doc1 = nlp(job)
+        acceptable_majors = []
+        for ent in doc1.ents:
+            labels_parts = ent.label_.split('|')
+            if labels_parts[0] == 'MAJOR':
+                if labels_parts[2].replace('-', ' ') not in acceptable_majors:
+                    acceptable_majors.append(labels_parts[2].replace('-', ' '))
+                if labels_parts[2].replace('-', ' ') not in acceptable_majors:
+                    acceptable_majors.append(labels_parts[2].replace('-', ' '))
+        return acceptable_majors
+
+    @staticmethod
+    def match_degrees_by_spacy(self, job):
+        language = detect(job)
+        if language == "en":
+            nlp = English()
+        else:
+            nlp = French()
+        # Add the pattern to the matcher
+        patterns_path = self.degrees_patterns_path
+        ruler = nlp.add_pipe("entity_ruler")
+        ruler.from_disk(patterns_path)
+        # Process some text
+        doc1 = nlp(job)
+        degree_levels = []
+        for ent in doc1.ents:
+            labels_parts = ent.label_.split('|')
+            if labels_parts[0] == 'DEGREE':
+                print((ent.text, ent.label_))
+                if labels_parts[1] not in degree_levels:
+                    degree_levels.append(labels_parts[1])
+        return degree_levels
+
+    @staticmethod
+    def match_skills_by_spacy(self, job):
+        language = detect(job)
+        if language == "en":
+            nlp = English()
+        else:
+            nlp = French()
+        patterns_path = self.skills_patterns_path
+        ruler = nlp.add_pipe("entity_ruler")
+        ruler.from_disk(patterns_path)
+        # Process some text
+        doc1 = nlp(job)
+        job_skills = []
+        for ent in doc1.ents:
+            labels_parts = ent.label_.split('|')
+            if labels_parts[0] == 'SKILL':
+                print((ent.text, ent.label_))
+                if labels_parts[1].replace('-', ' ') not in job_skills:
+                    job_skills.append(labels_parts[1].replace('-', ' '))
+        return job_skills
+
+    @staticmethod
+    def get_minimum_degree(self, degrees):
+        """get the minimum degree that the candidate has"""
+        d = {degree: self.degrees_importance[degree] for degree in degrees}
+        return min(d, key=d.get)
+
+    def extract_entities(self, job):
+        # recognize and extract entities
+        job_info = {'Minimum degree level': "", 'Acceptable majors': "", 'Skills': ""}
+        job = job.replace('. ', ' ')
+        degrees = self.match_degrees_by_spacy(self, job)
+        if len(degrees) != 0:
+            job_info['Minimum degree level'] = self.get_minimum_degree(self, degrees)
+        else:
+            job_info['Minimum degree level'] = ""
+        job_info['Acceptable majors'] = self.match_majors_by_spacy(self, job)
+        job_info['Skills'] = self.match_skills_by_spacy(self, job)
+
+        return job_info
